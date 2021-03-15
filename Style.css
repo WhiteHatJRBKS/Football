@@ -1,0 +1,60 @@
+body {
+    padding-top: 800px;
+}
+
+#outersection {
+    height: 800px;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: table;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(#0dbd74 0%, #2fedda 10%);
+    z-index: 9;
+}
+#innersection{
+display: table-cell;
+vertical-align: middle;
+}
+img {
+    width: 400px;
+    border-radius: 20%;
+}
+#mainsection {
+    text-align: center;
+    padding: 50px;
+}
+p {
+    width: 450px;
+    margin: 50px auto;
+    font-family: 'DotGothic16', sans-serif;
+    line-height: 1.5;
+}
+hr {
+    width: 200px;
+}
+.Menu {
+    list-style: none;
+    top: 10px;
+    position: fixed;
+    z-index: 10;
+}
+.MenuItems {
+float: left;
+font-size: 18px;
+padding: 20px;
+    
+}
+.MenuItems:hover{
+    background-color:aqua;
+}
+#div1 {
+    text-align: center;
+}
+#a1{
+  text-align: center;  
+}
